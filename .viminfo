@@ -20,38 +20,44 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+""0	CHAR	0
+	 
+	
+	This
+"1	LINE	0
 	<<<<<<< HEAD
 "2	LINE	0
 	>>>>>>> e1259f7a4dfa9a882035b9a4f8925c9edcfa5101
 "3	LINE	0
-	dist/
+	# yeomanCICD
 "4	LINE	0
-	build/
-"5	LINE	0
-	
-"6	LINE	0
-	*.log
-"7	LINE	0
-	bower_components/
-"8	LINE	0
-	node_modules/
-"9	LINE	0
 	=======
+"5	LINE	0
+	<<<<<<< HEAD
+"6	LINE	0
+	>>>>>>> e1259f7a4dfa9a882035b9a4f8925c9edcfa5101
+"7	LINE	0
+	dist/
+"8	LINE	0
+	build/
+"9	LINE	0
+	
 "-	CHAR	0
-	.
+	hitman
 
 # File marks:
-'0  1  0  ~/.gitignore
-'1  21  16  ~/test/spec/controllers/main.js
-'2  1  0  ~/app/scripts/controllers/main.js
-'3  14  0  ~/test/spec/controllers/main.js
-'4  1  0  ~/test/karma.conf.js
-'5  12  15  ~/app/scripts/controllers/main.js
-'6  2  15  ~/app/views/main.html
-'7  75  25  ~/Gruntfile.js
+'0  1  12  ~/README.md
+'1  1  0  ~/.gitignore
+'2  21  16  ~/test/spec/controllers/main.js
+'3  1  0  ~/app/scripts/controllers/main.js
+'4  14  0  ~/test/spec/controllers/main.js
+'5  1  0  ~/test/karma.conf.js
+'6  12  15  ~/app/scripts/controllers/main.js
+'7  2  15  ~/app/views/main.html
+'8  75  25  ~/Gruntfile.js
 
 # Jumplist (newest first):
+-'  1  12  ~/README.md
 -'  1  0  ~/.gitignore
 -'  21  16  ~/test/spec/controllers/main.js
 -'  1  0  ~/test/spec/controllers/main.js
@@ -149,9 +155,15 @@
 -'  1  0  ~/app/scripts/controllers/main.js
 -'  21  16  ~/test/spec/controllers/main.js
 -'  1  0  ~/test/spec/controllers/main.js
--'  1  0  ~/app/scripts/controllers/main.js
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	"	1	12
+	^	1	13
+	.	1	12
+	+	13	0
+	+	1	12
 
 > ~/.gitignore
 	"	1	0

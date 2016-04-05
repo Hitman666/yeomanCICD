@@ -20,42 +20,39 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	  <h1>'Allo, 'Allo!</h1>
-	  <p class="lead">
-	    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-	    Always a pleasure scaffolding your apps.
-	  </p>
-	  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-	</div>
+""1	LINE	0
+	<<<<<<< HEAD
+"2	LINE	0
+	>>>>>>> e1259f7a4dfa9a882035b9a4f8925c9edcfa5101
+"3	LINE	0
+	dist/
+"4	LINE	0
+	build/
+"5	LINE	0
 	
-	<div class="row marketing">
-	  <h4>HTML5 Boilerplate</h4>
-	  <p>
-	    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-	  </p>
-	
-	  <h4>Angular</h4>
-	  <p>
-	    AngularJS is a toolset for building the framework most suited to your application development.
-	  </p>
-	
-	  <h4>Karma</h4>
-	  <p>Spectacular Test Runner for JavaScript.</p>
-	</div>
-""-	CHAR	0
+"6	LINE	0
+	*.log
+"7	LINE	0
+	bower_components/
+"8	LINE	0
+	node_modules/
+"9	LINE	0
+	=======
+"-	CHAR	0
 	.
 
 # File marks:
-'0  21  16  ~/test/spec/controllers/main.js
-'1  1  0  ~/app/scripts/controllers/main.js
-'2  14  0  ~/test/spec/controllers/main.js
-'3  1  0  ~/test/karma.conf.js
-'4  12  15  ~/app/scripts/controllers/main.js
-'5  2  15  ~/app/views/main.html
-'6  75  25  ~/Gruntfile.js
+'0  1  0  ~/.gitignore
+'1  21  16  ~/test/spec/controllers/main.js
+'2  1  0  ~/app/scripts/controllers/main.js
+'3  14  0  ~/test/spec/controllers/main.js
+'4  1  0  ~/test/karma.conf.js
+'5  12  15  ~/app/scripts/controllers/main.js
+'6  2  15  ~/app/views/main.html
+'7  75  25  ~/Gruntfile.js
 
 # Jumplist (newest first):
+-'  1  0  ~/.gitignore
 -'  21  16  ~/test/spec/controllers/main.js
 -'  1  0  ~/test/spec/controllers/main.js
 -'  1  0  ~/app/scripts/controllers/main.js
@@ -150,8 +147,19 @@
 -'  75  25  ~/Gruntfile.js
 -'  1  0  ~/Gruntfile.js
 -'  1  0  ~/app/scripts/controllers/main.js
+-'  21  16  ~/test/spec/controllers/main.js
+-'  1  0  ~/test/spec/controllers/main.js
+-'  1  0  ~/app/scripts/controllers/main.js
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	1	0
+	.	1	0
+	+	6	6
+	+	7	4
+	+	8	0
+	+	1	0
 
 > ~/test/spec/controllers/main.js
 	"	21	16

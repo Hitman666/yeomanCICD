@@ -734,3 +734,19 @@ wiredep:test            18ms  ▇▇ 4%
 Total 452ms
 
 [36mCompleted in 0.878s at Tue Apr 05 2016 08:23:35 GMT-0400 (EDT)[39m - Waiting...
+[32m>> [39mFile ".git/logs" added.
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2016-04-05 12:27:18 UTC)
+loading tasks          327ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 48%
+loading grunt-wiredep   25ms  ▇▇ 4%
+wiredep:app            310ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 46%
+wiredep:test            16ms  ▇ 2%
+Total 679ms
+
+[36mCompleted in 1.154s at Tue Apr 05 2016 08:27:19 GMT-0400 (EDT)[39m - Waiting...

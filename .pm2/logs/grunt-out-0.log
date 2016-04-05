@@ -1,0 +1,736 @@
+[4mRunning "newer:jshint" (newer) task[24m
+
+[4mRunning "newer:jshint:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jshint:test" (newer) task[24m
+
+[4mRunning "jshint:test" (jshint) task[24m
+
+✔ No problems
+
+
+[4mRunning "newer-postrun:jshint:test:1:/home/hitman/node_modules/grunt-newer/.cache" (newer-postrun) task[24m
+
+[4mRunning "newer:jscs" (newer) task[24m
+
+[4mRunning "newer:jscs:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs:test" (newer) task[24m
+
+[4mRunning "jscs:test" (jscs) task[24m
+[32m>> [39m2 files without code style errors.
+
+[4mRunning "newer-postrun:jscs:test:2:/home/hitman/node_modules/grunt-newer/.cache" (newer-postrun) task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:test" (concurrent) task[24m
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:15:42 UTC)
+    loading tasks               219ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 83%
+    loading grunt-contrib-copy   23ms  ▇▇▇ 9%
+    copy:styles                  22ms  ▇▇▇ 8%
+    Total 265ms
+    
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "postcss:dist" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:test" (connect) task[24m
+Started connect web server on http://0.0.0.0:9001
+
+[4mRunning "karma:unit" (karma) task[24m
+[33m05 04 2016 08:15:44.560:WARN [watcher]: [39mPattern "/home/hitman/test/mock/**/*.js" does not match any file.
+[32m05 04 2016 08:15:44.594:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:8080/
+[32m05 04 2016 08:15:44.601:INFO [launcher]: [39mStarting browser PhantomJS
+[32m05 04 2016 08:15:44.863:INFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket /#nw9Fcuj7ac0BrlyzAAAA with id 45703864
+PhantomJS 2.1.1 (Linux 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.023 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.03 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0.043 secs / 0.03 secs)
+
+Running "clean:dist" (clean) task
+>> 19 paths cleaned.
+
+Running "wiredep:app" (wiredep) task
+
+Running "wiredep:test" (wiredep) task
+
+Running "useminPrepare:html" (useminPrepare) task
+Configuration changed for concat, uglify, cssmin
+
+Running "concurrent:dist" (concurrent) task
+    
+    [4mRunning "svgmin:dist" (svgmin) task[24m
+    Total saved: 0 B
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:15:45 UTC)
+    loading tasks         289ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 53%
+    loading grunt-svgmin  179ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 33%
+    svgmin:dist            73ms  ▇▇▇▇▇▇ 13%
+    Total 542ms
+        
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:15:46 UTC)
+    loading tasks               265ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 84%
+    loading grunt-contrib-copy   27ms  ▇▇▇ 9%
+    copy:styles                  21ms  ▇▇▇ 7%
+    Total 314ms
+        
+    [4mRunning "imagemin:dist" (imagemin) task[24m
+    Minified 1 image (saved 5.01 kB)
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:15:46 UTC)
+    loading tasks                   391ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 38%
+    loading grunt-contrib-imagemin  381ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 37%
+    imagemin:dist                   254ms  ▇▇▇▇▇▇▇▇ 25%
+    Total 1s
+    
+Running "postcss:server" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "postcss:dist" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "ngtemplates:dist" (ngtemplates) task
+File .tmp/templateCache.js created.
+Added .tmp/templateCache.js to <!-- build:js scripts/scripts.js -->
+
+Running "concat:generated" (concat) task
+File .tmp/concat/scripts/vendor.js created.
+File .tmp/concat/scripts/scripts.js created.
+
+Running "ngAnnotate:dist" (ngAnnotate) task
+>> 2 files successfully generated.
+
+Running "copy:dist" (copy) task
+Copied 9 files
+
+Running "cdnify:dist" (cdnify) task
+Going through dist/404.html, dist/index.html to update script refs
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+
+Running "cssmin:generated" (cssmin) task
+>> 2 files created. 147.49 kB → 117.65 kB
+
+Running "uglify:generated" (uglify) task
+>> 2 files created.
+
+Running "filerev:dist" (filerev) task
+Revved 5 files
+
+Running "usemin:html" (usemin) task
+Replaced 2 references to assets
+
+Running "usemin:css" (usemin) task
+Replaced 2 references to assets
+
+Running "usemin:js" (usemin) task
+Replaced 2 references to assets
+
+Running "htmlmin:dist" (htmlmin) task
+Minified 2 files
+
+Done, without errors.
+
+
+Execution Time (2016-04-05 12:15:40 UTC)
+concurrent:test           719ms  ▇ 2%
+loading grunt-karma          1s  ▇▇ 3%
+karma:unit                642ms  ▇ 2%
+concurrent:dist            1.8s  ▇▇▇ 6%
+ngAnnotate:dist            2.3s  ▇▇▇ 7%
+loading grunt-google-cdn   1.2s  ▇▇ 4%
+cdnify:dist                8.3s  ▇▇▇▇▇▇▇▇▇▇ 27%
+cssmin:generated          895ms  ▇▇ 3%
+uglify:generated          11.1s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 36%
+Total 30.9s
+
+[4mRunning "newer:jshint" (newer) task[24m
+
+[4mRunning "newer:jshint:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jshint:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs" (newer) task[24m
+
+[4mRunning "newer:jscs:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:test" (concurrent) task[24m
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:13 UTC)
+    loading tasks               193ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 82%
+    loading grunt-contrib-copy   24ms  ▇▇▇▇ 10%
+    copy:styles                  18ms  ▇▇▇ 8%
+    Total 236ms
+    
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "postcss:dist" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:test" (connect) task[24m
+Started connect web server on http://0.0.0.0:9001
+
+[4mRunning "karma:unit" (karma) task[24m
+[33m05 04 2016 08:16:15.113:WARN [watcher]: [39mPattern "/home/hitman/test/mock/**/*.js" does not match any file.
+[32m05 04 2016 08:16:15.141:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:8080/
+[32m05 04 2016 08:16:15.147:INFO [launcher]: [39mStarting browser PhantomJS
+[32m05 04 2016 08:16:15.414:INFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket /#ArDVazqweByNiFrwAAAA with id 94264750
+PhantomJS 2.1.1 (Linux 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.027 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.033 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0.039 secs / 0.033 secs)
+
+Running "clean:dist" (clean) task
+>> 19 paths cleaned.
+
+Running "wiredep:app" (wiredep) task
+
+Running "wiredep:test" (wiredep) task
+
+Running "useminPrepare:html" (useminPrepare) task
+Configuration changed for concat, uglify, cssmin
+
+Running "concurrent:dist" (concurrent) task
+    
+    [4mRunning "svgmin:dist" (svgmin) task[24m
+    Total saved: 0 B
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:16 UTC)
+    loading tasks         199ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 53%
+    loading grunt-svgmin  112ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 30%
+    svgmin:dist            66ms  ▇▇▇▇▇▇▇ 17%
+    Total 378ms
+        
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:16 UTC)
+    loading tasks               203ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 80%
+    loading grunt-contrib-copy   26ms  ▇▇▇▇ 10%
+    copy:styles                  24ms  ▇▇▇▇ 9%
+    Total 254ms
+        
+    [4mRunning "imagemin:dist" (imagemin) task[24m
+    Minified 1 image (saved 5.01 kB)
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:16 UTC)
+    loading tasks                   211ms  ▇▇▇▇▇▇▇ 21%
+    loading grunt-contrib-imagemin  365ms  ▇▇▇▇▇▇▇▇▇▇▇ 36%
+    imagemin:dist                   446ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 44%
+    Total 1s
+    
+Running "postcss:server" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "postcss:dist" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "ngtemplates:dist" (ngtemplates) task
+File .tmp/templateCache.js created.
+Added .tmp/templateCache.js to <!-- build:js scripts/scripts.js -->
+
+Running "concat:generated" (concat) task
+File .tmp/concat/scripts/vendor.js created.
+File .tmp/concat/scripts/scripts.js created.
+
+Running "ngAnnotate:dist" (ngAnnotate) task
+>> 2 files successfully generated.
+
+Running "copy:dist" (copy) task
+Copied 9 files
+
+Running "cdnify:dist" (cdnify) task
+Going through dist/404.html, dist/index.html to update script refs
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+
+Running "cssmin:generated" (cssmin) task
+>> 2 files created. 147.49 kB → 117.65 kB
+
+Running "uglify:generated" (uglify) task
+>> 2 files created.
+
+Running "filerev:dist" (filerev) task
+Revved 5 files
+
+Running "usemin:html" (usemin) task
+Replaced 2 references to assets
+
+Running "usemin:css" (usemin) task
+Replaced 2 references to assets
+
+Running "usemin:js" (usemin) task
+Replaced 2 references to assets
+
+Running "htmlmin:dist" (htmlmin) task
+Minified 2 files
+
+Done, without errors.
+
+
+Execution Time (2016-04-05 12:16:12 UTC)
+loading tasks             436ms  ▇ 1%
+wiredep:app               346ms  ▇ 1%
+concurrent:test           660ms  ▇ 2%
+loading grunt-karma       781ms  ▇ 3%
+karma:unit                607ms  ▇ 2%
+concurrent:dist            2.1s  ▇▇▇ 7%
+ngAnnotate:dist            1.6s  ▇▇ 6%
+loading grunt-google-cdn     2s  ▇▇▇ 7%
+cdnify:dist                8.8s  ▇▇▇▇▇▇▇▇▇▇▇ 30%
+cssmin:generated           1.2s  ▇▇ 4%
+uglify:generated           9.4s  ▇▇▇▇▇▇▇▇▇▇▇▇ 31%
+Total 29.8s
+
+[4mRunning "newer:jshint" (newer) task[24m
+
+[4mRunning "newer:jshint:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jshint:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs" (newer) task[24m
+
+[4mRunning "newer:jscs:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:test" (concurrent) task[24m
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:43 UTC)
+    loading tasks               244ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 81%
+    loading grunt-contrib-copy   29ms  ▇▇▇▇ 10%
+    copy:styles                  28ms  ▇▇▇▇ 9%
+    Total 303ms
+    
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "postcss:dist" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:test" (connect) task[24m
+Started connect web server on http://0.0.0.0:9001
+
+[4mRunning "karma:unit" (karma) task[24m
+[33m05 04 2016 08:16:45.371:WARN [watcher]: [39mPattern "/home/hitman/test/mock/**/*.js" does not match any file.
+[32m05 04 2016 08:16:45.403:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:8080/
+[32m05 04 2016 08:16:45.409:INFO [launcher]: [39mStarting browser PhantomJS
+[32m05 04 2016 08:16:45.653:INFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket /#SSma7XS4eRqgrN2WAAAA with id 84933677
+PhantomJS 2.1.1 (Linux 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.023 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.029 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0.041 secs / 0.029 secs)
+
+Running "clean:dist" (clean) task
+>> 19 paths cleaned.
+
+Running "wiredep:app" (wiredep) task
+
+Running "wiredep:test" (wiredep) task
+
+Running "useminPrepare:html" (useminPrepare) task
+Configuration changed for concat, uglify, cssmin
+
+Running "concurrent:dist" (concurrent) task
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:46 UTC)
+    loading tasks               394ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 82%
+    loading grunt-contrib-copy   44ms  ▇▇▇▇ 9%
+    copy:styles                  42ms  ▇▇▇ 9%
+    Total 481ms
+        
+    [4mRunning "svgmin:dist" (svgmin) task[24m
+    Total saved: 0 B
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:46 UTC)
+    loading tasks         283ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 62%
+    loading grunt-svgmin  109ms  ▇▇▇▇▇▇▇▇▇▇ 24%
+    svgmin:dist            63ms  ▇▇▇▇▇▇ 14%
+    Total 456ms
+        
+    [4mRunning "imagemin:dist" (imagemin) task[24m
+    Minified 1 image (saved 5.01 kB)
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:16:46 UTC)
+    loading tasks                   468ms  ▇▇▇▇▇▇▇▇▇▇▇ 36%
+    loading grunt-contrib-imagemin  399ms  ▇▇▇▇▇▇▇▇▇▇ 30%
+    imagemin:dist                   441ms  ▇▇▇▇▇▇▇▇▇▇▇ 34%
+    Total 1.3s
+    
+Running "postcss:server" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "postcss:dist" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "ngtemplates:dist" (ngtemplates) task
+File .tmp/templateCache.js created.
+Added .tmp/templateCache.js to <!-- build:js scripts/scripts.js -->
+
+Running "concat:generated" (concat) task
+File .tmp/concat/scripts/vendor.js created.
+File .tmp/concat/scripts/scripts.js created.
+
+Running "ngAnnotate:dist" (ngAnnotate) task
+>> 2 files successfully generated.
+
+Running "copy:dist" (copy) task
+Copied 9 files
+
+Running "cdnify:dist" (cdnify) task
+Going through dist/404.html, dist/index.html to update script refs
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+
+Running "cssmin:generated" (cssmin) task
+>> 2 files created. 147.49 kB → 117.65 kB
+
+Running "uglify:generated" (uglify) task
+>> 2 files created.
+
+Running "filerev:dist" (filerev) task
+Revved 5 files
+
+Running "usemin:html" (usemin) task
+Replaced 2 references to assets
+
+Running "usemin:css" (usemin) task
+Replaced 2 references to assets
+
+Running "usemin:js" (usemin) task
+Replaced 2 references to assets
+
+Running "htmlmin:dist" (htmlmin) task
+Minified 2 files
+
+Done, without errors.
+
+
+Execution Time (2016-04-05 12:16:42 UTC)
+concurrent:test           823ms  ▇ 3%
+postcss:server            432ms  ▇ 1%
+loading grunt-karma       827ms  ▇ 3%
+karma:unit                599ms  ▇ 2%
+concurrent:dist              2s  ▇▇▇ 7%
+ngAnnotate:dist            1.5s  ▇▇ 5%
+loading grunt-google-cdn     1s  ▇▇ 3%
+cdnify:dist                9.2s  ▇▇▇▇▇▇▇▇▇▇▇▇ 31%
+cssmin:generated           1.1s  ▇▇ 4%
+uglify:generated          10.3s  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 35%
+Total 29.8s
+
+[4mRunning "newer:jshint" (newer) task[24m
+
+[4mRunning "newer:jshint:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jshint:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs" (newer) task[24m
+
+[4mRunning "newer:jscs:all" (newer) task[24m
+No newer files to process.
+
+[4mRunning "newer:jscs:test" (newer) task[24m
+No newer files to process.
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:test" (concurrent) task[24m
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:17:13 UTC)
+    loading tasks               221ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 82%
+    loading grunt-contrib-copy   26ms  ▇▇▇▇ 10%
+    copy:styles                  20ms  ▇▇▇ 7%
+    Total 268ms
+    
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "postcss:dist" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:test" (connect) task[24m
+Started connect web server on http://0.0.0.0:9001
+
+[4mRunning "karma:unit" (karma) task[24m
+[33m05 04 2016 08:17:15.408:WARN [watcher]: [39mPattern "/home/hitman/test/mock/**/*.js" does not match any file.
+[32m05 04 2016 08:17:15.443:INFO [karma]: [39mKarma v0.13.22 server started at http://localhost:8080/
+[32m05 04 2016 08:17:15.450:INFO [launcher]: [39mStarting browser PhantomJS
+[32m05 04 2016 08:17:15.694:INFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket /#In-FNYZeIwn5wyezAAAA with id 62367820
+PhantomJS 2.1.1 (Linux 0.0.0): Executed 0 of 2 SUCCESS (0 secs / 0 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 1 of 2 SUCCESS (0 secs / 0.027 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0 secs / 0.033 secs)
+[1A[2KPhantomJS 2.1.1 (Linux 0.0.0): Executed 2 of 2 SUCCESS (0.041 secs / 0.033 secs)
+
+Running "clean:dist" (clean) task
+>> 19 paths cleaned.
+
+Running "wiredep:app" (wiredep) task
+
+Running "wiredep:test" (wiredep) task
+
+Running "useminPrepare:html" (useminPrepare) task
+Configuration changed for concat, uglify, cssmin
+
+Running "concurrent:dist" (concurrent) task
+    
+    [4mRunning "svgmin:dist" (svgmin) task[24m
+    Total saved: 0 B
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:17:16 UTC)
+    loading tasks         203ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 52%
+    loading grunt-svgmin  114ms  ▇▇▇▇▇▇▇▇▇▇▇▇ 29%
+    svgmin:dist            69ms  ▇▇▇▇▇▇▇▇ 18%
+    Total 387ms
+        
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:17:17 UTC)
+    loading tasks               192ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 82%
+    loading grunt-contrib-copy   23ms  ▇▇▇▇ 10%
+    copy:styles                  18ms  ▇▇▇ 8%
+    Total 234ms
+        
+    [4mRunning "imagemin:dist" (imagemin) task[24m
+    Minified 1 image (saved 5.01 kB)
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:17:17 UTC)
+    loading tasks                   361ms  ▇▇▇▇▇▇▇▇▇▇▇ 37%
+    loading grunt-contrib-imagemin  345ms  ▇▇▇▇▇▇▇▇▇▇▇ 35%
+    imagemin:dist                   277ms  ▇▇▇▇▇▇▇▇▇ 28%
+    Total 985ms
+    
+Running "postcss:server" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "postcss:dist" (postcss) task
+>> 1 processed stylesheet created.
+
+Running "ngtemplates:dist" (ngtemplates) task
+File .tmp/templateCache.js created.
+Added .tmp/templateCache.js to <!-- build:js scripts/scripts.js -->
+
+Running "concat:generated" (concat) task
+File .tmp/concat/scripts/vendor.js created.
+File .tmp/concat/scripts/scripts.js created.
+
+Running "ngAnnotate:dist" (ngAnnotate) task
+>> 2 files successfully generated.
+
+Running "copy:dist" (copy) task
+Copied 9 files
+
+Running "cdnify:dist" (cdnify) task
+Going through dist/404.html, dist/index.html to update script refs
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+✔ bower_components/angular/angular.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js
+✔ bower_components/angular-animate/angular-animate.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-animate.min.js
+✔ bower_components/angular-cookies/angular-cookies.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-cookies.min.js
+✔ bower_components/angular-resource/angular-resource.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-resource.min.js
+✔ bower_components/angular-route/angular-route.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-route.min.js
+✔ bower_components/angular-sanitize/angular-sanitize.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-sanitize.min.js
+✔ bower_components/angular-touch/angular-touch.js changed to //ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular-touch.min.js
+
+Running "cssmin:generated" (cssmin) task
+>> 2 files created. 147.49 kB → 117.65 kB
+
+Running "uglify:generated" (uglify) task
+[4mRunning "serve" task[24m
+
+[4mRunning "clean:server" (clean) task[24m
+[32m>> [39m1 path cleaned.
+
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[4mRunning "concurrent:server" (concurrent) task[24m
+    
+    [4mRunning "copy:styles" (copy) task[24m
+    Copied 1 file
+    
+    [32mDone, without errors.[39m
+    
+    
+    Execution Time (2016-04-05 12:17:51 UTC)
+    loading tasks               201ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 83%
+    loading grunt-contrib-copy   23ms  ▇▇▇▇ 9%
+    copy:styles                  18ms  ▇▇▇ 7%
+    Total 243ms
+    
+[4mRunning "postcss:server" (postcss) task[24m
+[32m>> [39m1 processed stylesheet created.
+
+[4mRunning "connect:livereload" (connect) task[24m
+Started connect web server on http://0.0.0.0:9000
+
+[4mRunning "watch" task[24m
+Waiting...
+[32m>> [39mFile ".git" added.
+[4mRunning "wiredep:app" (wiredep) task[24m
+
+[4mRunning "wiredep:test" (wiredep) task[24m
+
+[32mDone, without errors.[39m
+
+
+Execution Time (2016-04-05 12:23:34 UTC)
+loading tasks          202ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 45%
+loading grunt-wiredep   10ms  ▇ 2%
+wiredep:app            221ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 49%
+wiredep:test            18ms  ▇▇ 4%
+Total 452ms
+
+[36mCompleted in 0.878s at Tue Apr 05 2016 08:23:35 GMT-0400 (EDT)[39m - Waiting...
